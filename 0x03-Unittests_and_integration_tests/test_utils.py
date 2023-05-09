@@ -26,7 +26,7 @@ class TestAccessNestedMap(unittest.TestCase):
         """tests access_nested_map"""
         with self.assertRaises(KeyError):
             access_nested_map(nested_map, path)
-    
+
 
 class TestGetJson(unittest.TestCase):
     """class that inherits from unittest.TestCase"""
